@@ -43,8 +43,9 @@ class App extends Component {
       type: 'post',
       data: JSON.stringify({nome: this.state.nome, email: this.state.email, senha: this.state.senha}),
       success: function(resposta){
+        this.setState({lista: resposta})
         console.log("enviado com sucesso")
-      },
+      }.bind(this),
       error: function(resposta){
         console.log("erro")
       }
@@ -93,6 +94,7 @@ render() {
         <div className="content" id="content">
           <div className="pure-form pure-form-aligned">
             <form className="pure-form pure-form-aligned" onSubmit={this.enviarForm} method="post">
+              <InputCustomizado/>
               <div className="pure-control-group">
                 <label htmlFor="nome">Nome</label>
                 <input id="nome" type="text" name="nome" value={this.state.nome} onChange={this.setNome}/>
