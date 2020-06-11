@@ -1,6 +1,6 @@
 # Libray List
 
-Um parágrafo simples dando uma descrição sobre o projeto 
+Projeto de uma livraria. CRUD de livros.
 
 ## Começando
 
@@ -34,13 +34,19 @@ https://github.com/felipefariasdasilva/login-react.git
 cd login-react
 ```
 
-3. E rode o seguinte comando para inicializar a aplicação
+3. Instale as dependências
+
+```
+npm install
+```
+
+4. Em seguida rode a aplicação
 
 ```
 npm start
 ```
 
-4. Acesse no seu navegador o link de execução
+5. Acesse no seu navegador o link de execução
 
 ```
 http://localhost:3000
@@ -48,14 +54,12 @@ http://localhost:3000
 
 Finalize com um exemplo obtendo dados do sistema ou fazendo uma pequena demostração do funcionamento da aplicação
 
-
 ## Executando os testes
 
-1 . Execução dos testes unitáparios
+1 . Execução dos testes unitáarios
 ```
 npm test
 ```
-
 
 ### Análise dos testes fim-a-fim
 
