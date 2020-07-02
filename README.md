@@ -1,4 +1,4 @@
-# Libray List
+# :blue_book: Libray List
 
 Projeto de uma livraria. CRUD de livros.
 
